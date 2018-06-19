@@ -53,7 +53,7 @@ class Trilinos(CMakePackage):
     version('xsdk-0.2.0',
             git='https://github.com/trilinos/Trilinos.git', tag='xsdk-0.2.0')
     version('develop',
-            git='https://github.com/trilinos/Trilinos.git', branch='develop')
+            git='https://github.com/trilinos/Trilinos.git', commit='a88abd0973ec8715ca5638882daf4c7bf176a133')
     version('master',
             git='https://github.com/trilinos/Trilinos.git', branch='master')
     version('12.12.1', 'ecd4606fa332212433c98bf950a69cc7')
